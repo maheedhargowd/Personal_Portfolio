@@ -10,19 +10,19 @@ function App() {
   function IntroSection() {
     return (
       <div className="blur-bg">
-        <div className="font-medium text-4xl md:text-6xl ">Vidyadhar Gowd</div>
+        <div className="font-medium text-4xl md:text-6xl ">Maheedhar Gowd</div>
         <div className="text-black text-2xl font-semibold mt-4 ml-1">
-          IIT Kharagpur alumnus 2020.
+          Data Science Intern.
         </div>
         <div className="flex flex-col mt-2 md:flex-row ">
           <div className="flex items-center">
             <img src="./githublogo.png" className="w-8 h-8" />
             <a
-              href="https://github.com/vidyadhar03"
+              href="https://github.com/maheedhargowd"
               target="_blank"
               className="font-semibold underline hover:no-underline"
             >
-              vidyadhar03
+              maheedhargowd
             </a>
           </div>
           <div
@@ -32,19 +32,18 @@ function App() {
             }}
           >
             <img src="./gmailogo.png" className="w-6 h-6 mx-1" />
-            <a href="mailto:vidyadhariitkgp@gmail.com">Get in touch</a>
+            <a href="mailto:maheedhargowd@gmail.com">Get in touch</a>
           </div>
           <div className="flex items-center ml-0 md:ml-4 mt-2 md:mt-0 font-semibold underline">
             {showmail && (
-              <a href="mailto:vidyadhariitkgp@gmail.com">
-                vidyadhariitkgp@gmail.com
+              <a href="mailto:maheedhargowd@gmail.com">
+                maheedhargowd@gmail.com
               </a>
             )}
           </div>
         </div>
         <div className="mt-16 font-semibold text-2xl w-80 md:w-96 slide-in-right">
-          Software Engineer with over 3 years of experience, driven to build
-          impactful things for good people.
+          Data Sceince enthusiast curious to transform DATA into INSIGHTS .
         </div>
       </div>
     );
@@ -56,43 +55,39 @@ function App() {
         <div className="flex flex-col md:flex-row p-8 md:p-12 mt-8 rounded-3xl shadow-lg border-2 hover:shadow-xl slide-in">
           <div className="w-full md:w-2/5 font-bold text-2xl flex flex-col ">
             <div className="cursor-pointer underline hover:no-underline">
-              <a href="https://www.bajajfinserv.in/" target="_blank">
-                Bajaj Finserv Ltd.
+              <a href="https://corizo.in/" target="_blank">
+                Data Sceince Intern @ Corizo.
               </a>
             </div>
-            <div className="text-xl mt-1">2020-2023</div>
+            <div className="text-xl mt-1">06/2024-08/2024</div>
           </div>
           <div className="w-full md:w-3/5 flex text-lg mt-8 md:mt-0">
             <div className="flex flex-col text-lg">
               <ul className="list-disc pl-5">
                 <li>
                   <div className="flex flex-wrap">
-                    <span>Helped launch the</span>
-                    <a
-                      href="https://play.google.com/store/apps/details?id=org.altruist.BajajExperia&pcampaignid=web_share"
+                   <span>Helped launch the</span>
+                     <a
+                      href="https://github.com/maheedhargowd/corizo_major.git"
                       className="font-bold underline mx-1"
                       target="_blank"
                       rel="noopener noreferrer"
-                    >
-                      Bajaj SuperApp
+                      >
+                      Multidimensional Data Analysis
                     </a>
-                    <span>with 50M+ users.</span>
+                    {/* <span>with 50M+ users.</span> */}
                   </div>
                 </li>
                 <li className="mt-2">
-                  Took full ownership and delivered 7 out of 24 critical modules
-                  such as the 'Credit Card Acquisition', 'App-In-App', and
-                  'Locator'.
+                  Acquired comprehensive training in data science, focusing on advanced data analysis techniques and
+                  model building .
                 </li>
                 <li className="mt-2">
-                  Led the autonomous development of the 'Store Locator' module,
-                  skillfully employing Kotlin within the Android Studio
-                  environment.
+                  Worked with Numpy Matrices for Multidimensional Data Analysis .
                 </li>
                 <li className="mt-2">
-                  Designed and implemented effective data architectures that
-                  efficiently bridged front-end and back-end systems, aligning
-                  with business goals.
+                  Optimized Semiconductor Manufacturing Yield Prediction through Feature Selection and Classification
+                  Modeling .
                 </li>
               </ul>
             </div>
